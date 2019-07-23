@@ -2,6 +2,7 @@
 O projeto trata-se do desenvolvimento de uma API RESTFULL para um aplicativo de empréstimos para pessoas jurídicas.
 
 <h1>Iniciando</h1>
+
 Para obter este projeto é necessário primeiramente cloná-lo em sua máquina e abri-lo em sua IDE de preferência.
 
 <h1>Pré-requisitos</h1>
