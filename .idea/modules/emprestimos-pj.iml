@@ -179,5 +179,23 @@
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:cachecontrol_2.13:1.1.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ahc-ws-standalone_2.13:2.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ahc-ws_2.13:2.7.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ws-standalone-json_2.13:2.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ws-standalone-xml_2.13:2.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ws-standalone_2.13:2.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-ws_2.13:2.7.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:shaded-asynchttpclient:2.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:shaded-oauth:2.0.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: javax.cache:cache-api:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.joda:joda-convert:1.9.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.webjars:swagger-ui:3.23.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.4.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.4.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.swagger:swagger-annotations:1.5.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.swagger:swagger-core:1.5.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.swagger:swagger-models:1.5.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.2.1:jar" level="project" />
   </component>
 </module>

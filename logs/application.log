@@ -1,10 +1,100 @@
-2019-07-29 08:18:28,652 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized at jdbc:mysql://localhost:3306/emprestimos
-2019-07-29 08:18:28,665 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
-2019-07-29 08:18:28,734 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-4 - datasource [default] bound to JNDI as DefaultDS
-2019-07-29 08:18:29,389 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-07-29 16:07:21,215 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-4 - 
 
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
+! @7ck6e3in9 - Internal server error, for (GET) [/todos] ->
+ 
+play.api.PlayException: Cannot load module[Module [play.modules.swagger.SwaggerModule] cannot be instantiated.]
+	at play.api.inject.Modules$.constructModule(Module.scala:181)
+	at play.api.inject.Modules$.$anonfun$locate$4(Module.scala:140)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:100)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:87)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:36)
+	at play.api.inject.Modules$.locate(Module.scala:135)
+	at play.api.inject.guice.GuiceableModule$.loadModules(GuiceInjectorBuilder.scala:303)
+	at play.api.inject.guice.GuiceApplicationBuilder$.$anonfun$$lessinit$greater$default$9$1(GuiceApplicationBuilder.scala:36)
+	at play.api.inject.guice.GuiceApplicationBuilder.applicationModule(GuiceApplicationBuilder.scala:115)
+	at play.api.inject.guice.GuiceBuilder.injector(GuiceInjectorBuilder.scala:201)
+	at play.api.inject.guice.GuiceApplicationBuilder.build(GuiceApplicationBuilder.scala:156)
+	at play.api.inject.guice.GuiceApplicationLoader.load(GuiceApplicationLoader.scala:22)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$reload$3(DevServerStart.scala:193)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:22)
+	at play.core.server.DevServerStart$$anon$1.reload(DevServerStart.scala:185)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:144)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:304)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:189)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1261)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:523)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:409)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:606)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:485)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:581)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:749)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:764)
+	at akka.actor.Actor.aroundReceive(Actor.scala:539)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:537)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:671)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:612)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:581)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:268)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:229)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:241)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.ClassNotFoundException: play.modules.swagger.SwaggerModule
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at play.api.inject.Modules$.$anonfun$locate$5(Module.scala:140)
+	at play.api.inject.Modules$.constructModule(Module.scala:152)
+	... 37 common frames omitted
+2019-07-29 16:07:25,547 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-3 - 
 
-2019-07-29 08:18:29,442 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
+! @7ck6e3in9 - Internal server error, for (GET) [/] ->
+ 
+play.api.PlayException: Cannot load module[Module [play.modules.swagger.SwaggerModule] cannot be instantiated.]
+	at play.api.inject.Modules$.constructModule(Module.scala:181)
+	at play.api.inject.Modules$.$anonfun$locate$4(Module.scala:140)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:100)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:87)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:36)
+	at play.api.inject.Modules$.locate(Module.scala:135)
+	at play.api.inject.guice.GuiceableModule$.loadModules(GuiceInjectorBuilder.scala:303)
+	at play.api.inject.guice.GuiceApplicationBuilder$.$anonfun$$lessinit$greater$default$9$1(GuiceApplicationBuilder.scala:36)
+	at play.api.inject.guice.GuiceApplicationBuilder.applicationModule(GuiceApplicationBuilder.scala:115)
+	at play.api.inject.guice.GuiceBuilder.injector(GuiceInjectorBuilder.scala:201)
+	at play.api.inject.guice.GuiceApplicationBuilder.build(GuiceApplicationBuilder.scala:156)
+	at play.api.inject.guice.GuiceApplicationLoader.load(GuiceApplicationLoader.scala:22)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$reload$3(DevServerStart.scala:193)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:22)
+	at play.core.server.DevServerStart$$anon$1.reload(DevServerStart.scala:185)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:144)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:304)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:189)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1261)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:523)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:409)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:606)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:485)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:581)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:749)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:764)
+	at akka.actor.Actor.aroundReceive(Actor.scala:539)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:537)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:671)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:612)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:581)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:268)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:229)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:241)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.ClassNotFoundException: play.modules.swagger.SwaggerModule
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at play.api.inject.Modules$.$anonfun$locate$5(Module.scala:140)
+	at play.api.inject.Modules$.constructModule(Module.scala:152)
+	... 37 common frames omitted

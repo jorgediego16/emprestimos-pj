@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes
-// @DATE:Wed Jul 24 10:24:54 BRT 2019
+// @DATE:Mon Jul 29 15:17:59 BRT 2019
 
 package router
 
@@ -42,6 +42,7 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """todos""", """controllers.HomeController.index"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -85,6 +86,24 @@ class Routes(
     )
   )
 
+  // @LINE:10
+  private[this] lazy val controllers_HomeController_index2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("todos")))
+  )
+  private[this] lazy val controllers_HomeController_index2_invoker = createInvoker(
+    HomeController_1.index,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.HomeController",
+      "index",
+      Nil,
+      "GET",
+      this.prefix + """todos""",
+      """""",
+      Seq()
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -98,6 +117,12 @@ class Routes(
     case controllers_Assets_versioned1_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned1_invoker.call(Assets_0.versioned(path, file))
+      }
+  
+    // @LINE:10
+    case controllers_HomeController_index2_route(params@_) =>
+      call { 
+        controllers_HomeController_index2_invoker.call(HomeController_1.index)
       }
   }
 }

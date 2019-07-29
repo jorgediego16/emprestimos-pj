@@ -15,6 +15,12 @@ public class Perfil {
     private Long id;
 
     private String nomePerfil;
+
+    public Perfil(String nomePerfil) {
+        this.nomePerfil = nomePerfil;
+    }
+
+    public Perfil () {}
 }
 
 

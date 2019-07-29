@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes
-// @DATE:Wed Jul 24 10:24:54 BRT 2019
+// @DATE:Mon Jul 29 15:17:59 BRT 2019
 
 import play.api.mvc.Call
 
@@ -20,8 +20,16 @@ package controllers {
   
     // @LINE:6
     def index(): Call = {
+    
+      () match {
       
-      Call("GET", _prefix)
+        // @LINE:6
+        case ()  =>
+          
+          Call("GET", _prefix)
+      
+      }
+    
     }
   
   }

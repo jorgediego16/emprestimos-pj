@@ -2,78 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975c1a55-980b-4343-868d-242fe967adb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__antlr_antlr_2_7_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_googlecode_usc_jdbcdslog_1_0_6_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_enhancer_1_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_java_jdbc_2_13_2_7_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_java_jpa_2_13_2_7_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_jdbc_2_13_2_7_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_jdbc_api_2_13_2_7_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_3_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__dom4j_dom4j_1_6_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_ebean_ebean_11_22_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_ebean_ebean_annotation_4_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_ebean_ebean_migration_11_9_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_ebean_persistence_api_2_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__mysql_mysql_connector_java_5_1_41_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_avaje_avaje_classpath_scanner_3_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_avaje_avaje_classpath_scanner_api_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_avaje_avaje_datasource_3_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_avaje_avaje_datasource_api_3_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hibernate_hibernate_core_4_3_6_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hibernate_hibernate_entitymanager_4_3_6_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_javassist_javassist_3_21_0_GA_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jboss_jandex_1_1_0_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_projectlombok_lombok_1_12_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_yaml_snakeyaml_1_21_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__tyrex_tyrex_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_0_b2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.5-20190701220625+0000/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.5-20190701220625+0000/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.5-20190701220625+0000/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_4_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_4_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_cachecontrol_2_13_1_1_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ahc_ws_2_13_2_7_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ahc_ws_standalone_2_13_2_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_2_13_2_7_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_standalone_2_13_2_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_standalone_json_2_13_2_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_standalone_xml_2_13_2_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_shaded_asynchttpclient_2_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_shaded_oauth_2_0_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_swagger_annotations_1_5_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_swagger_core_1_5_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_swagger_models_1_5_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__javax_cache_cache_api_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_1_9_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_webjars_swagger_ui_3_23_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Utils/JWTUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/emprestimos-pj-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/emprestimos-pj-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/emprestimos-pj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/emprestimos-pj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/play2_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$04d9fd4970475d6509b3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$04d9fd4970475d6509b3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$04d9fd4970475d6509b3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$23dece9f8af660d6686f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$23dece9f8af660d6686f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$23dece9f8af660d6686f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7e3a9982003520723c32$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7e3a9982003520723c32.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7e3a9982003520723c32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a771c2ed25bfecd670de$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a771c2ed25bfecd670de.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a771c2ed25bfecd670de.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5295e7dd82a86e3021a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5295e7dd82a86e3021a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5295e7dd82a86e3021a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d37a560a74a93f71ccbd$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d37a560a74a93f71ccbd.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d37a560a74a93f71ccbd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0521c3de85eff911aa5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0521c3de85eff911aa5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0521c3de85eff911aa5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c480be283336f8d63a7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c480be283336f8d63a7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c480be283336f8d63a7.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/emprestimos-pj-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/emprestimos-pj-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/emprestimos-pj-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/emprestimos-pj-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-compile-internal.xml" afterDir="false" />
@@ -87,21 +58,23 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-scala-tool.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emprestimos-pj-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseAssets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseAssets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/javascript/ReverseHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/models/Perfil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/models/Perfil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/models/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/models/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes$$anonfun$routes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/router/Routes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/routes" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/routes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.justa/emprestimos-pj_2.13/1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.justa/emprestimos-pj_2.13/1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.justa/emprestimos-pj_2.13/1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.justa/emprestimos-pj_2.13/1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/org.scala-sbt.temp/temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0/1.2.5/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/org.scala-sbt.temp/temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0/1.2.5/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/org.scala-sbt.temp/temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0/1.2.5/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/org.scala-sbt.temp/temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0/1.2.5/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-compile-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-compile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-debian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-debian.xml" afterDir="false" />
@@ -125,18 +98,39 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-web-assets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-web-assets.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-web-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-web-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.justa-emprestimos-pj_2.13-windows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/org.scala-sbt.temp-temp-module-52f238aede5a1d8d7a484c2bec27a144810e2ac0-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/RoutesPrefix.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/RoutesPrefix.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.13" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.13" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-assets-web-assets" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,13 +146,37 @@
       <executable />
     </execution>
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="emprestimos-pj" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,6 +187,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://scala-decompiled/PlayJava.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -181,8 +202,8 @@
         <option value="java.lang._" />
         <option value="play.mvc._" />
         <option value="_root_.play.twirl.api.Txt" />
-        <option value="play.api.data.Field" />
         <option value="play.data._" />
+        <option value="play.api.data.Field" />
         <option value="play.api.templates.PlayMagic._" />
         <option value="_root_.play.twirl.api.JavaScript" />
         <option value="play.core.j.PlayMagicForJava._" />
@@ -204,13 +225,17 @@
     <option name="height" value="728" />
   </component>
   <component name="ProjectId" id="1OgUKePAG2y0pv3RrFJ3GQJCBUJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,7 +304,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="2991745168" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3585836546" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2912720812" />
       </map>
@@ -303,7 +328,10 @@
       <updated>1564057779547</updated>
       <workItem from="1564057782890" duration="7018000" />
       <workItem from="1564075534673" duration="68000" />
-      <workItem from="1564398672513" duration="2840000" />
+      <workItem from="1564398672513" duration="9514000" />
+      <workItem from="1564411010569" duration="2220000" />
+      <workItem from="1564422307555" duration="673000" />
+      <workItem from="1564423002649" duration="4428000" />
     </task>
     <servers />
   </component>
@@ -315,11 +343,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="masterDetails">
     <states>

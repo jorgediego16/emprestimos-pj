@@ -21,4 +21,12 @@ public class Usuario extends Model{
 
     @ManyToOne
     private Perfil perfil;
+
+    public Usuario (){}
+
+    public Usuario(String username, String password, Perfil perfil) {
+        this.username = username;
+        this.password = password;
+        this.perfil = perfil;
+    }
 }

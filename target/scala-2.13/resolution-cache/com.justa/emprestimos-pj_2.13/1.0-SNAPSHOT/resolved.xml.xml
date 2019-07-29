@@ -4,7 +4,7 @@
 		module="emprestimos-pj_2.13"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190729081812"
+		publication="20190729160402"
 	>
 		<description>
 		emprestimos-pj
@@ -57,9 +57,14 @@
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc-evolutions_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ahc-ws_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-jpa_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.41" conf="compile->default(compile)"/>
 		<dependency org="org.projectlombok" name="lombok" rev="1.12.6" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-java-jpa_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="javax.xml.bind" name="jaxb-api" rev="2.3.0" conf="compile->default(compile)"/>
+		<dependency org="io.jsonwebtoken" name="jjwt" rev="0.9.0" conf="compile->default(compile)"/>
+		<dependency org="org.webjars" name="swagger-ui" rev="3.23.0" conf="compile->default(compile)"/>
+		<dependency org="io.swagger" name="swagger-core" rev="1.5.3" conf="compile->default(compile)"/>
 		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.3.6.Final" conf="compile->default(compile)"/>
 		<dependency org="io.ebean" name="ebean" rev="11.22.10" conf="compile->default(compile)"/>
 	</dependencies>
