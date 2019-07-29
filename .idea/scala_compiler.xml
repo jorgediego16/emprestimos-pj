@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="emprestimos-pj_1942" />
+    <profile name="sbt 1" modules="emprestimos-pj_7329" />
     <profile name="sbt 2" modules="emprestimos-pj">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />

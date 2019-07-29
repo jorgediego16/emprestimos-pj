@@ -1,0 +1,6 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/desenvolvedor0/Documentos/emprestimos-pj/conf/application.conf,/home/desenvolvedor0/Documentos/emprestimos-pj/target/scala-2.13/classes/application.conf)
+[debug] 	(/home/desenvolvedor0/Documentos/emprestimos-pj/conf/logback.xml,/home/desenvolvedor0/Documentos/emprestimos-pj/target/scala-2.13/classes/logback.xml)
+[debug] 	(/home/desenvolvedor0/Documentos/emprestimos-pj/conf/META-INF,/home/desenvolvedor0/Documentos/emprestimos-pj/target/scala-2.13/classes/META-INF)
+[debug] 	(/home/desenvolvedor0/Documentos/emprestimos-pj/conf/META-INF/persistence.xml,/home/desenvolvedor0/Documentos/emprestimos-pj/target/scala-2.13/classes/META-INF/persistence.xml)
+[debug] 	(/home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes,/home/desenvolvedor0/Documentos/emprestimos-pj/target/scala-2.13/classes/routes)

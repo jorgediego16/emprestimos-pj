@@ -4,7 +4,7 @@
 		module="emprestimos-pj_2.13"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190724080442"
+		publication="20190729081812"
 	>
 		<description>
 		emprestimos-pj
@@ -45,6 +45,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.13.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.13.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="twirl-api_2.13" rev="1.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-enhancer" rev="1.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-server_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.13" rev="2.7.3" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-omnidoc_2.13" rev="2.7.3" conf="docs->default(compile)"/>
@@ -53,5 +54,13 @@
 		<dependency org="com.typesafe.play" name="play-java-forms_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="filters-helpers_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-jdbc_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-jdbc-evolutions_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-jdbc_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.41" conf="compile->default(compile)"/>
+		<dependency org="org.projectlombok" name="lombok" rev="1.12.6" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-jpa_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.3.6.Final" conf="compile->default(compile)"/>
+		<dependency org="io.ebean" name="ebean" rev="11.22.10" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
