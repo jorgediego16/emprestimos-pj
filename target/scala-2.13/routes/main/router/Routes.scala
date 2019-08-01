@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes
-// @DATE:Mon Jul 29 15:17:59 BRT 2019
+// @DATE:Thu Aug 01 10:53:17 BRT 2019
 
 package router
 
@@ -42,7 +42,7 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """todos""", """controllers.HomeController.index"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """consulta/""" + "$" + """cnpj<[^/]+>""", """controllers.HomeController.consultaReceita(cnpj:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -87,18 +87,18 @@ class Routes(
   )
 
   // @LINE:10
-  private[this] lazy val controllers_HomeController_index2_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("todos")))
+  private[this] lazy val controllers_HomeController_consultaReceita2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("consulta/"), DynamicPart("cnpj", """[^/]+""",true)))
   )
-  private[this] lazy val controllers_HomeController_index2_invoker = createInvoker(
-    HomeController_1.index,
+  private[this] lazy val controllers_HomeController_consultaReceita2_invoker = createInvoker(
+    HomeController_1.consultaReceita(fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.HomeController",
-      "index",
-      Nil,
+      "consultaReceita",
+      Seq(classOf[String]),
       "GET",
-      this.prefix + """todos""",
+      this.prefix + """consulta/""" + "$" + """cnpj<[^/]+>""",
       """""",
       Seq()
     )
@@ -120,9 +120,9 @@ class Routes(
       }
   
     // @LINE:10
-    case controllers_HomeController_index2_route(params@_) =>
-      call { 
-        controllers_HomeController_index2_invoker.call(HomeController_1.index)
+    case controllers_HomeController_consultaReceita2_route(params@_) =>
+      call(params.fromPath[String]("cnpj", None)) { (cnpj) =>
+        controllers_HomeController_consultaReceita2_invoker.call(HomeController_1.consultaReceita(cnpj))
       }
   }
 }

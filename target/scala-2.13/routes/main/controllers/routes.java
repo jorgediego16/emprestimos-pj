@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes
-// @DATE:Mon Jul 29 15:17:59 BRT 2019
+// @DATE:Thu Aug 01 10:53:17 BRT 2019
 
 package controllers;
 

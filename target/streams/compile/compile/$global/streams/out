@@ -1,4 +1,6 @@
-[error] /home/desenvolvedor0/Documentos/emprestimos-pj/app/models/Usuario.java:8:1: cannot find symbol
-[error]   symbol:   class annotations
-[error]   location: package io.swagger
-[error] import io.swagger.annotations;
+[error] /home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes:10:1: Cannot use a method returning java.util.concurrent.CompletionStage[play.libs.ws.WSResponse] as a Handler for requests
+[error] GET     /consulta/:cnpj             controllers.HomeController.consultaReceita(cnpj: String)
+[error] /home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes:10:1: not enough arguments for method createInvoker: (implicit hif: play.core.routing.HandlerInvokerFactory[java.util.concurrent.CompletionStage[play.libs.ws.WSResponse]])play.core.routing.HandlerInvoker[java.util.concurrent.CompletionStage[play.libs.ws.WSResponse]].
+[error] Unspecified value parameter hif.
+[error] GET     /consulta/:cnpj             controllers.HomeController.consultaReceita(cnpj: String)
+[error] two errors found

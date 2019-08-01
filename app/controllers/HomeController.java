@@ -1,28 +1,38 @@
 package controllers;
 
-import Utils.JWTUtils;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import models.Perfil;
-import models.Usuario;
-import play.mvc.*;
+import play.libs.ws.WSBodyReadables;
+import play.libs.ws.WSBodyWritables;
+import play.libs.ws.WSClient;
+import play.libs.ws.WSResponse;
+import play.mvc.Controller;
+import play.mvc.Result;
+
+import javax.inject.Inject;
+import java.util.concurrent.CompletionStage;
 
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
  */
-@Api(value = "/api/todos", description = "Empréstimo controller")
-public class HomeController extends Controller {
+public class HomeController extends Controller implements WSBodyWritables, WSBodyReadables {
 
-    Perfil perfil = new Perfil("Adm");
-    Usuario usuario = new Usuario("adm", "adm", perfil);
+    private final WSClient ws;
 
-    @ApiOperation(value = "get All Todos",
-            notes = "Returns List of all Todos",
-            response = String.class,
-            httpMethod = "GET")
+    private static final String receitaURL = "https://www.receitaws.com.br/v1/cnpj/";
+
+    @Inject
+    public HomeController(WSClient ws) {
+        this.ws = ws;
+    }
+
+    public CompletionStage<Result> consultaReceita (String cnpj) {
+        return ws.url(receitaURL + cnpj).get().thenApply(
+                (WSResponse r) -> ok(r.getBody(json()))
+        );
+    }
+
     public Result index() {
-        return ok(JWTUtils.gerarJWT(usuario));
+        return ok();
     }
 
 }

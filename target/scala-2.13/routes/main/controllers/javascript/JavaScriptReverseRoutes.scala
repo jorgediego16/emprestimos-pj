@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/desenvolvedor0/Documentos/emprestimos-pj/conf/routes
-// @DATE:Mon Jul 29 15:17:59 BRT 2019
+// @DATE:Thu Aug 01 10:53:17 BRT 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -19,16 +19,22 @@ package controllers.javascript {
     }
 
   
+    // @LINE:10
+    def consultaReceita: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.consultaReceita",
+      """
+        function(cnpj0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "consulta/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("cnpj", cnpj0))})
+        }
+      """
+    )
+  
     // @LINE:6
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.index",
       """
         function() {
-        
-          if (true) {
-            return _wA({method:"GET", url:"""" + _prefix + """"})
-          }
-        
+          return _wA({method:"GET", url:"""" + _prefix + """"})
         }
       """
     )
