@@ -5,12 +5,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Getter
 @Setter
 @Entity
-public class Usuario extends Model{
+public class Usuario extends Model implements Serializable {
 
+    private static final long serialVersionUID = -3828936907199592524L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -4,7 +4,7 @@
 		module="emprestimos-pj_2.13"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190729160402"
+		publication="20190801222337"
 	>
 		<description>
 		emprestimos-pj
@@ -44,8 +44,9 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.13.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.13.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="twirl-api_2.13" rev="1.4.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-enhancer" rev="1.2.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="twirl-api_2.13" rev="1.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ebean_2.13" rev="5.0.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-server_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.13" rev="2.7.3" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-omnidoc_2.13" rev="2.7.3" conf="docs->default(compile)"/>
@@ -66,6 +67,5 @@
 		<dependency org="org.webjars" name="swagger-ui" rev="3.23.0" conf="compile->default(compile)"/>
 		<dependency org="io.swagger" name="swagger-core" rev="1.5.3" conf="compile->default(compile)"/>
 		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.3.6.Final" conf="compile->default(compile)"/>
-		<dependency org="io.ebean" name="ebean" rev="11.22.10" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

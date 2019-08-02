@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/io.swagger/swagger-annotations/bundles/swagger-annotations-1.5.3.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.swagger/swagger-annotations/srcs/swagger-annotations-1.5.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

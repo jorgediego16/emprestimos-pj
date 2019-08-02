@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/bundles/guava-27.1-jre.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/srcs/guava-27.1-jre-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
