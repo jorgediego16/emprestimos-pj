@@ -6,27 +6,26 @@ package router
 
 import play.core.routing._
 import play.core.routing.HandlerInvokerFactory._
-
 import play.api.mvc._
-
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
+import controllers.EmprestimoController
 
 class Routes(
-  override val errorHandler: play.api.http.HttpErrorHandler, 
-  // @LINE:6
-  HomeController_1: controllers.HomeController,
-  // @LINE:9
-  Assets_0: controllers.Assets,
-  val prefix: String
+              override val errorHandler: play.api.http.HttpErrorHandler,
+              // @LINE:6
+              HomeController_1: EmprestimoController,
+              // @LINE:9
+              Assets_0: controllers.Assets,
+              val prefix: String
 ) extends GeneratedRouter {
 
    @javax.inject.Inject()
    def this(errorHandler: play.api.http.HttpErrorHandler,
-    // @LINE:6
-    HomeController_1: controllers.HomeController,
-    // @LINE:9
-    Assets_0: controllers.Assets
+            // @LINE:6
+            HomeController_1: EmprestimoController,
+            // @LINE:9
+            Assets_0: controllers.Assets
   ) = this(errorHandler, HomeController_1, Assets_0, "/")
 
   def withPrefix(addPrefix: String): Routes = {
@@ -40,9 +39,9 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix, """controllers.HomeController.index"""),
+    ("""GET""", this.prefix, """controllers.EmprestimoController.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """consulta/""" + "$" + """cnpj<[^/]+>""", """controllers.HomeController.consultaReceita(cnpj:String)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """consulta/""" + "$" + """cnpj<[^/]+>""", """controllers.EmprestimoController.consultaReceita(cnpj:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -58,7 +57,7 @@ class Routes(
     HomeController_1.index,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.HomeController",
+      "controllers.EmprestimoController",
       "index",
       Nil,
       "GET",
@@ -94,7 +93,7 @@ class Routes(
     HomeController_1.consultaReceita(fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.HomeController",
+      "controllers.EmprestimoController",
       "consultaReceita",
       Seq(classOf[String]),
       "GET",

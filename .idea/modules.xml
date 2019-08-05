@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emprestimos-pj_721.iml" filepath="$PROJECT_DIR$/.idea/modules/emprestimos-pj_721.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emprestimos-pj_721-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emprestimos-pj_721-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emprestimospj.iml" filepath="$PROJECT_DIR$/.idea/modules/emprestimospj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emprestimospj-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emprestimospj-build.iml" />
+    </modules>
+  </component>
+</project>

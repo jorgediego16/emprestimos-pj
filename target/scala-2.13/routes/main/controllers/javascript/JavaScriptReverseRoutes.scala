@@ -21,7 +21,7 @@ package controllers.javascript {
   
     // @LINE:10
     def consultaReceita: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.consultaReceita",
+      "controllers.EmprestimoController.consultaReceita",
       """
         function(cnpj0) {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "consulta/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("cnpj", cnpj0))})
@@ -31,7 +31,7 @@ package controllers.javascript {
   
     // @LINE:6
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.index",
+      "controllers.EmprestimoController.index",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + """"})
